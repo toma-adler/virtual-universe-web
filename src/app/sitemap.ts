@@ -16,7 +16,7 @@ type GetAllPostIdParams = IDResultParams;
 
 type GetAllPostIdResponse = Results<string>;
 
-const BACKEND_URL = 'https://blue-staging-api.adler3d.com/';
+const BACKEND_URL = 'https://blue-staging-api.adler3d.com';
 
 const getAllPostId = async ({ beforeId, limit }: GetAllPostIdParams) => {
   const response = await axios.get<GetAllPostIdResponse>(`${BACKEND_URL}/posts/id`, {
