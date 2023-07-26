@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:bundle": "BUNDLE=true next build",
+    "build:sitemap": "next-sitemap",
     "postbuild": "yarn build:sitemap && if [ -f '*.map' ]; then yarn delete:sourcemap; fi",
     "clear": "rm -r .next",
     "start": "next start",
