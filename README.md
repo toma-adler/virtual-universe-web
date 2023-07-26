@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Virtual Universe WEB
 
+Test for Next.js 13 and Three.js
+
 ## Framework
 
 To learn more about Next.js, take a look at the following resources:
